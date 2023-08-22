@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "934ddca8-5916-403b-a57c-6a5122aa4464",
+		"name": "Services",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18993700"
+	},
+	"item": [
+		{
+			"name": "Get All Services",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/services/getAllServices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"services",
+						"getAllServices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Service",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"The complete Web DEvelopment Bootcamp 2023\",\n    \"desc\": \"Anegla Yu\",\n    \"rating\": \"4.89\",\n    \"price\": \"450\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/services/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"services",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Service by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/services/service/64e0ebff6e324d721b0956b2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"services",
+						"service",
+						"64e0ebff6e324d721b0956b2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
