@@ -1,4 +1,4 @@
-# Plotline_Assignment ==> #Billing System
+#Billing System
 
 This is a Billing System project implemented using JavaScript, designed to manage various aspects of billing. 
 The project includes functionalities related to Users, Products, Services, Cart, and Admin management.
